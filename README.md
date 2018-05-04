@@ -22,8 +22,9 @@ Export the makehuman avatar in mhx2 format.
 Import that file into blender.  When you select import, in the lower left, there will be an 'Import MHX2' submenu.  Check 'Override Exported Data', select the following settings:
    Import Human Type:  Base
    Helper Geometry:    Unchecked
-   Offset:             Unchecked   
+   Offset:             Checked   
    Face Shapes:        Checked
+   Masking:            Ignore
    Leave the rest as default
    
 Once the model has loaded, select the avatars skeleton in object mode.

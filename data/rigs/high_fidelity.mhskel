@@ -81,110 +81,17 @@
             "roll": 0,
             "tail": "Head____tail"
         },
-        "jaw": {
-            "head": "jaw____head",
+        "LeftEye": {
+            "head": "eye.L____head",
             "parent": "Head",
-            "reference": null,
-            "rotation_plane": "jaw____plane",
-            "tail": "jaw____tail"
+            "reference": ["eye.L"],
+            "tail": "eye.L____tail"
         },
-        "tongue00": {
-            "head": "tongue00____head",
-            "parent": "jaw",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue00____tail"
-        },
-        "tongue01": {
-            "head": "tongue01____head",
-            "parent": "tongue00",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue01____tail"
-        },
-        "tongue02": {
-            "head": "tongue02____head",
-            "parent": "tongue01",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue02____tail"
-        },
-        "tongue03": {
-            "head": "tongue03____head",
-            "parent": "tongue02",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue03____tail"
-        },
-        "tongue04": {
-            "head": "tongue04____head",
-            "parent": "tongue03",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue04____tail"
-        },
-        "tongue05.L": {
-            "head": "tongue05.L____head",
-            "parent": "tongue01",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue05.L____tail"
-        },
-        "tongue05.R": {
-            "head": "tongue05.R____head",
-            "parent": "tongue01",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue05.R____tail"
-        },
-        "tongue06.L": {
-            "head": "tongue06.L____head",
-            "parent": "tongue02",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue06.L____tail"
-        },
-        "tongue06.R": {
-            "head": "tongue06.R____head",
-            "parent": "tongue02",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue06.R____tail"
-        },
-        "tongue07.L": {
-            "head": "tongue07.L____head",
-            "parent": "tongue03",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue07.L____tail"
-        },
-        "tongue07.R": {
-            "head": "tongue07.R____head",
-            "parent": "tongue03",
-            "reference": null,
-            "roll": 0,
-            "tail": "tongue07.R____tail"
-        },
-        "special04": {
-            "head": "special04____head",
-            "parent": "jaw",
-            "reference": null,
-            "roll": 0,
-            "tail": "special04____tail"
-        },
-        "oris01": {
-            "head": "oris01____head",
-            "parent": "oris02",
-            "reference": null,
-            "roll": 0,
-            "tail": "oris01____tail"
-        },
-        "oris02": {
-            "head": "oris02____head",
-            "parent": "special04",
-            "reference": null,
-            "roll": 0,
-            "tail": "oris02____tail"
+        "RightEye": {
+            "head": "eye.R____head",
+            "parent": "Head",
+            "reference": ["eye.R"],
+            "tail": "eye.R____tail"
         },
         "LeftHandIndex1": {
             "head": "LeftHandIndex1____head",
@@ -717,6 +624,46 @@
             14571,
             14572,
             14573
+        ],
+        "eye.L____head": [
+            13606,
+            13607,
+            13608,
+            13609,
+            13610,
+            13611,
+            13612,
+            13613
+        ],
+        "eye.L____tail": [
+            14086,
+            14087,
+            14088,
+            14089,
+            14090,
+            14091,
+            14092,
+            14093
+        ],
+        "eye.R____head": [
+            13614,
+            13615,
+            13616,
+            13617,
+            13618,
+            13619,
+            13620,
+            13621
+        ],
+        "eye.R____tail": [
+            14518,
+            14519,
+            14520,
+            14521,
+            14522,
+            14523,
+            14524,
+            14525
         ],
        "jaw____head": [
             14590,
@@ -1791,16 +1738,6 @@
             "lowerarm01.R____head",
             "upperarm02.R____head"
         ],
-        "eye.L____plane": [
-            "orbicularis03.L____tail",
-            "orbicularis04.L____tail",
-            "eye.L____head"
-        ],
-        "eye.R____plane": [
-            "orbicularis03.R____tail",
-            "orbicularis04.R____tail",
-            "eye.R____head"
-        ],
         "finger1-1.L____plane": [
             "finger1-3.L____tail",
             "finger1-2.L____tail",
@@ -2116,106 +2053,6 @@
             "special01____head",
             "neck03____head"
         ],
-        "oculi01.L____plane": [
-            "temporalis01.L____head",
-            "temporalis01.L____tail",
-            "oculi01.L____tail"
-        ],
-        "oculi01.R____plane": [
-            "temporalis01.R____head",
-            "temporalis01.R____tail",
-            "oculi01.R____tail"
-        ],
-        "oculi02.L____plane": [
-            "temporalis01.L____head",
-            "temporalis01.L____tail",
-            "oculi02.L____tail"
-        ],
-        "oculi02.R____plane": [
-            "temporalis01.R____head",
-            "temporalis01.R____tail",
-            "oculi02.R____tail"
-        ],
-        "orbicularis03.L____plane": [            
-            "orbicularis04.L____tail",
-            "orbicularis03.L____head",
-            "orbicularis03.L____tail"
-        ],
-        "orbicularis03.R____plane": [
-            "orbicularis04.R____tail",
-            "orbicularis03.R____head",
-            "orbicularis03.R____tail"
-        ],
-        "orbicularis04.L____plane": [
-            "orbicularis04.L____tail",
-            "orbicularis03.L____head",
-            "orbicularis03.L____tail"
-        ],
-        "orbicularis04.R____plane": [
-            "orbicularis04.R____tail",
-            "orbicularis03.R____head",
-            "orbicularis03.R____tail"
-        ],
-        "oris01____plane": [
-            "special04____head",
-            "special04____tail",
-            "oris01____tail"
-        ],
-        "oris02____plane": [
-            "special04____head",
-            "special04____tail",
-            "oris02____tail"
-        ],
-        "oris03.L____plane": [
-            "oris03.L____tail",            
-            "oris04.L____tail",
-            "oris04.L____head"           
-        ],
-        "oris03.R____plane": [
-            "oris03.R____tail",            
-            "oris04.R____tail",
-            "oris04.R____head"  
-        ],
-        "oris04.L____plane": [
-            "oris03.L____tail",            
-            "oris04.L____tail",
-            "oris04.L____head" 
-        ],
-        "oris04.R____plane": [
-            "oris03.R____tail",            
-            "oris04.R____tail",
-            "oris04.R____head" 
-        ],
-        "oris05____plane": [
-            "oris05____tail",
-            "special01____head",
-            "oris05____head"
-        ],
-        "oris06.L____plane": [
-            "oris06.L____tail",
-            "oris06.L____head",
-            "special01____head"
-        ],
-        "oris06.R____plane": [
-            "oris06.R____tail",
-            "oris06.R____head",
-            "special01____head"
-        ],
-        "oris06____plane": [
-            "oris06____tail",
-            "special01____head",
-            "oris06____head"
-        ],
-        "oris07.L____plane": [
-            "oris07.L____tail",
-            "oris07.L____head",
-            "special01____head"
-        ],
-        "oris07.R____plane": [
-            "oris07.R____tail",
-            "oris07.R____head",
-            "special01____head"
-        ],
         "pelvis.L____plane": [
             "upperleg01.L____tail",
             "upperleg01.L____head",
@@ -2225,26 +2062,6 @@
             "upperleg01.R____tail",
             "upperleg01.R____head",
             "pelvis.R____head"
-        ],
-        "risorius02.L____plane": [
-            "temporalis02.L____head",
-            "temporalis02.L____tail",
-            "risorius02.L____tail"
-        ],
-        "risorius02.R____plane": [
-            "temporalis02.R____head",
-            "temporalis02.R____tail",
-            "risorius02.R____tail"
-        ],
-        "risorius03.L____plane": [
-            "risorius02.L____head",
-            "risorius03.L____head",
-            "risorius03.L____tail"
-        ],
-        "risorius03.R____plane": [
-            "risorius02.R____head",
-            "risorius03.R____head",
-            "risorius03.R____tail"
         ],
         "root____plane": [
             "root____head",
@@ -2261,41 +2078,7 @@
             "lowerarm01.R____head",
             "upperarm02.R____head"
         ],        
-        "special01____plane": [
-            "special01____tail",
-            "special01____head",
-            "head____tail"
-        ],
-        "special03____plane": [
-            "special03____tail",
-            "special03____head",
-            "head____tail"
-        ],
-        "special04____plane": [
-            "special04____tail",
-            "special04____head",
-            "jaw____head"
-        ],
-        "special05.L____plane": [
-            "special05.L____tail",
-            "special05.L____head",
-            "head____tail"
-        ],
-        "special05.R____plane": [
-            "special05.R____tail",
-            "special05.R____head",
-            "head____tail"
-        ],
-        "special06.L____plane": [
-            "special06.L____tail",
-            "special06.L____head",
-            "head____head"
-        ],
-        "special06.R____plane": [
-            "special06.R____tail",
-            "special06.R____head",
-            "head____head"
-        ],
+
         "spine01____plane": [
             "root____tail",
             "spine05____tail",
@@ -2320,26 +2103,6 @@
             "root____tail",
             "spine05____tail",
             "root____head"
-        ],
-        "temporalis01.L____plane": [
-            "oculi02.L____tail",
-            "temporalis01.L____tail",
-            "temporalis01.L____head"
-        ],
-        "temporalis01.R____plane": [
-            "oculi02.R____tail",
-            "temporalis01.R____tail",
-            "temporalis01.R____head"
-        ],
-        "temporalis02.L____plane": [
-            "temporalis02.L____head",
-            "temporalis02.L____tail",
-            "risorius02.L____tail"
-        ],
-        "temporalis02.R____plane": [
-            "temporalis02.R____head",
-            "temporalis02.R____tail",
-            "risorius02.R____tail"
         ],
         "toe1-1.L____plane": [
             "lowerleg02.L____head",
@@ -2481,61 +2244,6 @@
             "foot.R____head",
             "foot.R____tail"
         ],
-        "tongue00____plane": [
-            "special04____tail",
-            "special04____head",
-            "tongue00____tail"
-        ],
-        "tongue01____plane": [
-            "tongue00____head",
-            "tongue01____head",
-            "tongue01____tail"
-        ],
-        "tongue02____plane": [
-            "tongue00____head",
-            "tongue02____head",
-            "tongue02____tail"
-        ],
-        "tongue03____plane": [
-            "tongue00____head",
-            "tongue03____head",
-            "tongue03____tail"
-        ],
-        "tongue04____plane": [
-            "tongue00____head",
-            "tongue04____head",
-            "tongue04____tail"
-        ],
-        "tongue05.L____plane": [
-            "tongue01____head",
-            "tongue01____tail",
-            "tongue05.L____tail"
-        ],
-        "tongue05.R____plane": [
-            "tongue01____head",
-            "tongue01____tail",
-            "tongue05.R____tail"
-        ],
-        "tongue06.L____plane": [
-            "tongue02____head",
-            "tongue02____tail",
-            "tongue06.L____tail"
-        ],
-        "tongue06.R____plane": [
-            "tongue02____head",
-            "tongue02____tail",
-            "tongue06.R____tail"
-        ],
-        "tongue07.L____plane": [
-            "tongue03____head",
-            "tongue03____tail",
-            "tongue07.L____tail"
-        ],
-        "tongue07.R____plane": [
-            "tongue03____head",
-            "tongue03____tail",
-            "tongue07.R____tail"
-        ],
         "upperarm01.L____plane": [
             "lowerarm01.L____tail",
             "lowerarm01.L____head",
@@ -2585,6 +2293,16 @@
             "finger2-1.R____head",
             "finger5-1.R____head",
             "wrist.R____head"
+        ],
+        "eye.L____plane": [
+            "orbicularis03.L____tail",
+            "orbicularis04.L____tail",
+            "eye.L____head"
+        ],
+        "eye.R____plane": [
+            "orbicularis03.R____tail",
+            "orbicularis04.R____tail",
+            "eye.R____head"
         ]
     },
     "tags": ["Detailed hands","game"],
