@@ -93,6 +93,34 @@
             "reference": ["eye.R"],
             "tail": "eye.R____tail"
         },
+        "orbicularis03.L": {
+            "head": "orbicularis03.L____head",
+            "parent": "Head",
+            "reference": null,
+            "rotation_plane": "orbicularis03.L____plane",
+            "tail": "orbicularis03.L____tail"
+        },
+        "orbicularis03.R": {
+            "head": "orbicularis03.R____head",
+            "parent": "Head",
+            "reference": null,
+            "rotation_plane": "orbicularis03.R____plane",
+            "tail": "orbicularis03.R____tail"
+        },
+        "orbicularis04.L": {
+            "head": "orbicularis04.L____head",
+            "parent": "Head",
+            "reference": null,
+            "rotation_plane": "orbicularis04.L____plane",
+            "tail": "orbicularis04.L____tail"
+        },
+        "orbicularis04.R": {
+            "head": "orbicularis04.R____head",
+            "parent": "Head",
+            "reference": null,
+            "rotation_plane": "orbicularis04.R____plane",
+            "tail": "orbicularis04.R____tail"
+        },
         "LeftHandIndex1": {
             "head": "LeftHandIndex1____head",
             "parent": "LeftHand",
@@ -664,6 +692,86 @@
             14523,
             14524,
             14525
+        ],
+        "orbicularis03.L____head": [
+            13606,
+            13607,
+            13608,
+            13609,
+            13610,
+            13611,
+            13612,
+            13613
+        ],
+        "orbicularis03.L____tail": [
+            14094,
+            14095,
+            14096,
+            14097,
+            14098,
+            14099,
+            14100,
+            14101
+        ],
+        "orbicularis03.R____head": [
+            13614,
+            13615,
+            13616,
+            13617,
+            13618,
+            13619,
+            13620,
+            13621
+        ],
+        "orbicularis03.R____tail": [
+            14526,
+            14527,
+            14528,
+            14529,
+            14530,
+            14531,
+            14532,
+            14533
+        ],
+        "orbicularis04.L____head": [
+            13606,
+            13607,
+            13608,
+            13609,
+            13610,
+            13611,
+            13612,
+            13613
+        ],
+        "orbicularis04.L____tail": [
+            14078,
+            14079,
+            14080,
+            14081,
+            14082,
+            14083,
+            14084,
+            14085
+        ],
+        "orbicularis04.R____head": [
+            13614,
+            13615,
+            13616,
+            13617,
+            13618,
+            13619,
+            13620,
+            13621
+        ],
+        "orbicularis04.R____tail": [
+            14510,
+            14511,
+            14512,
+            14513,
+            14514,
+            14515,
+            14516,
+            14517
         ],
        "jaw____head": [
             14590,
