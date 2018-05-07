@@ -10,7 +10,7 @@
 
 4) Copy [data/rigs/high_fidelity.mhskel](https://raw.githubusercontent.com/roxanneskelly/hifi-makehuman-skeleton/master/data/rigs/high_fidelity.mhskel) and [data/rigs/high_fidelity.thumb](https://github.com/roxanneskelly/hifi-makehuman-skeleton/blob/master/data/rigs/high_fidelity.thumb?raw=true) to the data/rigs subdirectory in your makehuman installation directory.
 
-5) The makehuman skeleton is intended to be used with Menithal's Blender HiFi Addon, available [here](https://github.com/Menithal/Blender-Hifi-Addon.)  Install that addon into blender as documented.
+5) The makehuman skeleton is intended to be used with Menithal's Blender HiFi Addon, available [here](https://github.com/Menithal/Blender-Hifi-Addon).  Install that addon into blender as documented.
 
 6) Launch the MakeHuman binary from the install directory, go to the Community tab, and download any assets (clothing, etc.) that might be fun.
 
