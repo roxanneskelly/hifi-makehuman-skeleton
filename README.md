@@ -18,17 +18,12 @@
 
 1) Launch MakeHuman and create your avatar.
 
-2) When you're ready to export, select the High Fidelity skeleton in the Pose/Animate -> Skeleton tab, and select Tpose in the Pose/Animate -> Pose tab.
+2) When you've built your avatar, pose it.  Select the High Fidelity skeleton in the Pose/Animate -> Skeleton tab, and select Tpose in the Pose/Animate -> Pose tab.
 
-3) Export the makehuman avatar in mhx2 format.
+3) Export the makehuman avatar in mhx2 format.  Be sure to set the 'scale units' to 'meter', all other options should be default.
 
 4) Import that file into blender.  When you select import, in the lower left, there will be an 'Import MHX2' submenu.  Check 'Override Exported Data', select the following settings:
-   Import Human Type:  Base
-   Helper Geometry:    Unchecked
-   Offset:             Checked   
-   Face Shapes:        Checked
-   Masking:            Ignore
-   Leave the rest as default
+   Import Human Type: Base, Helper Geometry: Unchecked, Offset: Checked, Face Shapes: Checked, Masking: Ignore.  Leave the rest as default
    
 5) Once the model has loaded, select the avatars skeleton in object mode.
 
