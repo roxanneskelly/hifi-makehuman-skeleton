@@ -2,7 +2,7 @@
 
 ## Installation
 
-1) Install MakeHuman from here: [Makehuman Download](http://www.makehuman.org/download.php)
+1) Install MakeHuman from here: [Makehuman Download](http://www.makehumancommunity.org/content/downloads.html)
 
 2) Install [makehuman_plugins_for_1.1.1.zip](http://download.tuxfamily.org/makehuman/releases/1.1.1/makehuman_plugins_for_1.1.1.zip) as per instructions in  [README](http://download.tuxfamily.org/makehuman/releases/1.1.1/README.txt)
 
